@@ -1,0 +1,60 @@
+.address {
+    color: var(--communication-color);
+    background-color: var(--hero-background-color);
+}
+
+.footer {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: baseline;
+}
+
+.footer-logo {
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.address-list {
+    margin-top: 20px;
+
+    & li:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+
+.address-list__street {
+    font-style: normal;
+    color: var(--white-color);
+    text-decoration: none;
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--color-blue);
+    }
+}
+
+.address-list__email {
+    font-style: normal;
+    color: var(--communication-color);
+    text-decoration: none;
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--color-blue);
+    }
+}
+
+.address-list__number {
+    font-style: normal;
+    color: var(--communication-color);
+    text-decoration: none;
+    transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--color-blue);
+    }
+}
